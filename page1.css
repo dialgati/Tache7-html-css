@@ -141,6 +141,7 @@ body{
         flex-direction: column;
         justify-content: center;
         border: none;
+        margin-top: 10px;
     }
 }
 @media screen and (max-width: 768px){
@@ -149,6 +150,17 @@ body{
        flex-direction: column;
        justify-content: center;
        border: none;
+       margin-top: 10px;
+     }
+}
+@media screen and (max-width: 576px){
+    .panier{
+       margin-top: 20px;
+    }
+}
+@media screen and (max-width: 768px){
+    .panier{
+      margin-top: 20px;
      }
 }
 .ion{
@@ -206,8 +218,34 @@ body{
     width: 70px;
     height: 70px;
     margin-top: 60px;
+    display: flex;
     object-fit: contain;
     position: absolute;
+}
+@media screen and (max-width: 576px){
+    .puma img{
+        width: 70px;
+        height: 70px;
+        margin-top: 60px;
+        margin-right: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+        position: absolute;
+    }
+}
+@media screen and (max-width: 768px){
+    .puma img{
+        width: 70px;
+        height: 70px;
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+        position: absolute;
+    }
 }
 .progress{
     width: 80px;
